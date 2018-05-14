@@ -13,6 +13,7 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: -50px;
     clear: both;
   }
   h1,
@@ -39,7 +40,7 @@ body {
   }
   h2,
   h3 {
-    font-size: 22px;
+    font-size: 18px;
   }
   /* header */
   #masthead {
@@ -91,6 +92,10 @@ body {
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
+  }
+  .footer,
+  .push {
+    height: 50px
   }
   /* sidebar */
   .sidebar {
@@ -146,6 +151,8 @@ body {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    border-width: 10px;
+    border-color: orangered;
   }
   .work h3 {
     position: absolute;
@@ -154,7 +161,7 @@ body {
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 10px;
     color: #fff;
     text-align: center;
     background: #4aaaa5;
